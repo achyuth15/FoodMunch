@@ -1,0 +1,954 @@
+"Screen2 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =conNavBar_1.Y + conNavBar_1.Height
+        ZIndex: =1
+
+        DataCard1 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: |-
+                =//Parent.Height - 100
+                600
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            imgBackGround As image:
+                Height: =Parent.Height
+                Image: ='foodmunch-banner-bg'
+                ImagePosition: =ImagePosition.Fill
+                Width: =Parent.Width
+                ZIndex: =2
+
+            conDelicious As groupContainer.verticalAutoLayoutContainer:
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =20
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =4
+
+                lblDeliciousAnytime As label:
+                    Align: =Align.Center
+                    AlignInContainer: =AlignInContainer.Center
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =Self.PaddingTop+200
+                    PaddingBottom: =0
+                    PaddingTop: =50
+                    Size: =30
+                    Text: ="Get Delicious Food Anytime"
+                    VerticalAlign: =VerticalAlign.Bottom
+                    Width: =Parent.Width/1.3
+                    X: =190
+                    Y: =108
+                    ZIndex: =2
+
+                lblSubHead As label:
+                    Align: =Align.Center
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Semibold
+                    Size: =20
+                    Text: ="Eat Smart & Healthy"
+                    Width: =550
+                    ZIndex: =3
+
+                Container1 As groupContainer.horizontalAutoLayoutContainer:
+                    LayoutGap: =40
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =4
+
+                    btnViewMenu As button:
+                        BorderColor: =Self.Fill
+                        Fill: =RGBA(208, 178, 0, 1)
+                        FontWeight: =FontWeight.Normal
+                        HoverFill: =Self.Fill
+                        PressedBorderColor: =RGBA(255, 255, 255, 1)
+                        PressedColor: =Self.Color
+                        PressedFill: =Self.Fill
+                        Text: ="View Menu"
+                        ZIndex: =1
+
+                    btnOrderNow As button:
+                        BorderColor: =RGBA(208, 178, 0, 1)
+                        Color: =Self.BorderColor
+                        Fill: =RGBA(0, 0, 0, 0)
+                        FontWeight: =FontWeight.Normal
+                        HoverColor: =Self.Color
+                        HoverFill: =Self.Fill
+                        PressedBorderColor: =RGBA(255, 255, 255, 1)
+                        PressedColor: =Self.Color
+                        PressedFill: =Self.Fill
+                        Text: ="Order Now"
+                        ZIndex: =2
+
+        DataCardWhyChooseUs As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(249, 251, 254, 1)
+            Height: =conWhyChooseUs.Height+20
+            Width: =Parent.Width
+            X: =0
+            Y: =1
+            ZIndex: =2
+
+            conWhyChooseUs As groupContainer.verticalAutoLayoutContainer:
+                BorderStyle: =BorderStyle.None
+                DropShadow: =DropShadow.None
+                Height: =Gallery1.Height+Gallery1.Y
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMode: =LayoutMode.Auto
+                PaddingTop: =40
+                Width: =Parent.Width-Self.X*2
+                X: =If(App.Width<1000,30,100)
+                ZIndex: =1
+
+                btnFocus As button:
+                    BorderStyle: =BorderStyle.None
+                    Height: =0
+                    Text: ="Button"
+                    Width: =0
+                    ZIndex: =1
+
+                lblWhyChooseUs As label:
+                    FontWeight: =FontWeight.Bold
+                    Size: =25
+                    Text: ="Why Choose Us?"
+                    Width: =350
+                    ZIndex: =2
+
+                lblWhyChooseUsSubHeading As label:
+                    Text: ="We use both original recipes and classic versions of famous food items."
+                    Width: =650
+                    ZIndex: =3
+
+                "Gallery1 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
+                    DelayItemLoading: =true
+                    FillPortions: =0
+                    Height: =If(App.Width<1000,1630,610)
+                    Items: |-
+                        =Table(
+                            {
+                                Title: "Food Service",
+                                SubTitle: "Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.",
+                                image: 'food-service'
+                            },
+                            {
+                                Title: "Fresh Food",
+                                SubTitle: "The Fresh Food group provides fresh-cut fruits and vegetables directly picked from our partner farms and farm houses so that you always get them tree to plate.",
+                                image: 'fresh food'
+                            },
+                            {
+                                Title: "Best Offers",
+                                SubTitle: "Food Coupons & Offers upto 50% OFF and Exclusive Promo Codes on All Online Food Orders.",
+                                image: 'best-offers'
+                            }
+                        )
+                    LayoutMinHeight: =287
+                    LayoutMinWidth: =320
+                    LoadingSpinner: =LoadingSpinner.Data
+                    TemplateFill: =RGBA(255, 255, 255, 1)
+                    TemplatePadding: =20
+                    TemplateSize: |-
+                        =//Min(440, Self.Height - 140)
+                        If(App.Width<1000,Parent.Width-40,Parent.Width/3.35)
+                    Width: =Parent.Width
+                    WrapCount: =If(App.Width<1000,3,1)
+                    X: =786
+                    Y: =287
+                    ZIndex: =4
+
+                    Image1 As image:
+                        Height: =296
+                        Image: =ThisItem.image
+                        ImagePosition: =ImagePosition.Center
+                        OnSelect: =Select(Parent)
+                        RadiusBottomLeft: =8
+                        RadiusBottomRight: =8
+                        RadiusTopLeft: =8
+                        RadiusTopRight: =8
+                        Width: =Parent.TemplateWidth - 32
+                        X: =(Parent.TemplateWidth / 2) - (Self.Width / 2)
+                        Y: =16
+                        ZIndex: =1
+
+                    Title1 As label:
+                        Align: =Align.Center
+                        FontWeight: =FontWeight.Bold
+                        Height: =Self.Size * 1.8
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: =ThisItem.Title
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Parent.TemplateWidth - 64
+                        X: =32
+                        Y: =Image1.Y + Image1.Height + 16
+                        ZIndex: =2
+
+                    Subtitle1 As label:
+                        Align: =Align.Center
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: |-
+                            =//Self.Size * 1.8
+                            200
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: =ThisItem.SubTitle
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Title1.Width
+                        X: =Title1.X
+                        Y: =Title1.Y + Title1.Height + 8
+                        ZIndex: =3
+
+        DataCardExploreMenu As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Container2.Height+20
+            Width: =Parent.Width
+            X: =0
+            Y: =2
+            ZIndex: =3
+
+            Container2 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: |-
+                    =//glyFoodMenu.Height+glyFoodMenu.Y
+                    //If(App.Width<762,3000,1500)
+                    glyFoodMenu.Height+glyFoodMenu.Y+10
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width-Self.X*2
+                X: =If(App.Width<1000,30,100)
+                ZIndex: =1
+
+                btnFocusMenu As button:
+                    BorderStyle: =BorderStyle.None
+                    Height: =0
+                    Text: ="Button"
+                    Width: =0
+                    ZIndex: =1
+
+                Label3 As label:
+                    FontWeight: =FontWeight.Semibold
+                    Size: =18
+                    Text: ="Explore Menu"
+                    Width: =200
+                    ZIndex: =2
+
+                "glyFoodMenu As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
+                    DelayItemLoading: =true
+                    FillPortions: =0
+                    Height: |-
+                        =If(
+                            App.Width < 1000 && App.Width >= 762,
+                            1000,
+                            If(
+                                App.Width < 762,
+                                2500,
+                                500
+                            )
+                        )
+                    Items: |-
+                        =Table(
+                            {
+                                Title: "Non-Veg Starters",
+                                image: nonvegstarter
+                            },
+                            {
+                                Title: "Veg Starters",
+                                image: vegstarter
+                            },
+                            {
+                                Title: "Soups",
+                                image: soups
+                            },
+                            {
+                                Title: "Fish & Sea Food",
+                                image: seafood
+                            },
+                            {
+                                Title: "Main Course",
+                                image: maincourse
+                            },
+                            {
+                                Title: "Noodles",
+                                image: noodles
+                            },
+                            {
+                                Title: "Salads",
+                                image: salads
+                            },
+                            {
+                                Title: "Desserts",
+                                image: desserts
+                            }
+                        )
+                    LayoutMinHeight: =287
+                    LayoutMinWidth: =320
+                    LoadingSpinner: =LoadingSpinner.Data
+                    TemplatePadding: =0
+                    TemplateSize: |-
+                        =//Min(440, Self.Height - 60)
+                        If(App.Width<1000&& App.Width>=762,Parent.Width/2,If(App.Width<762,Parent.Width-Self.X*2,Parent.Width/4))
+                    Width: =Parent.Width
+                    WrapCount: |-
+                        =If(
+                            App.Width < 1000 && App.Width >= 762,
+                            4,
+                            If(
+                                App.Width < 762,
+                                8,
+                                2
+                            )
+                        )
+                    X: =135
+                    Y: =78
+                    ZIndex: =3
+
+                    Image3 As image:
+                        Height: |-
+                            =//152
+                            Parent.TemplateHeight-70
+                        Image: =ThisItem.image
+                        ImagePosition: =ImagePosition.Fill
+                        OnSelect: =Select(Parent)
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Width: =Parent.TemplateWidth - 32
+                        X: =(Parent.TemplateWidth / 2) - (Self.Width / 2)
+                        ZIndex: =1
+
+                    Title2 As label:
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =Self.Size * 1.8
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: =ThisItem.Title
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Parent.TemplateWidth - 64
+                        X: =32
+                        Y: =Image3.Height+Image3.Y+10
+                        ZIndex: =2
+
+                    Subtitle2 As label:
+                        Color: =RGBA(255, 191, 0, 1)
+                        Fill: =RGBA(255, 255, 255, 1)
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =Self.Size * 1.8
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: ="View All"
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Title2.Width
+                        X: =Title2.X
+                        Y: =Title2.Y+Title2.Height+10
+                        ZIndex: =3
+
+        DataCardHealthyFood As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =conHealthyFood.Height+10
+            Width: =Parent.Width
+            X: =0
+            Y: =3
+            ZIndex: =4
+
+            conHealthyFood As groupContainer.horizontalAutoLayoutContainer:
+                Fill: =RGBA(249, 251, 254, 1)
+                Height: =If(App.Width<600,570,conHealthyFoodImg5.Height)
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutDirection: =If(App.Width<762,LayoutDirection.Vertical,LayoutDirection.Horizontal)
+                LayoutJustifyContent: =If(App.Width<762,LayoutJustifyContent.Center,LayoutJustifyContent.Start)
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =1
+
+                conHealthyFoodImg5 As groupContainer.verticalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =300
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =If(App.Width<600,Parent.Width,Parent.Width/3.5)
+                    X: =766
+                    Y: =119
+                    ZIndex: =1
+
+                    imgFreshFood As image:
+                        Height: =200
+                        Image: ='healthy-food-plate-img'
+                        Width: =200
+                        ZIndex: =1
+
+                conHealthyFoodDescription As groupContainer.verticalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Start
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =conHealthyFoodImg5.Height
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutGap: =10
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    PaddingLeft: =20
+                    Width: =If(App.Width<762,Parent.Width,Parent.Width-conHealthyFoodImg5.Width)
+                    ZIndex: =2
+
+                    lblDeliciousFruits As label:
+                        FontWeight: =FontWeight.Bold
+                        Height: =If(App.Width<500,80,40)
+                        Size: =16
+                        Text: ="Fresh, Healthy, Organic, Delicious Fruits"
+                        VerticalAlign: =VerticalAlign.Bottom
+                        Width: =conHealthyFoodDescription.Width-Parent.PaddingLeft-10
+                        ZIndex: =1
+
+                    lblDeliciousFruitsDescription As label:
+                        Height: =If(App.Width<600,220,100)
+                        PaddingTop: =0
+                        Text: ="Say no to harmful chemicals and go fully organic with our range of fresh fruits and veggies. Pamper your body and your senses with the true and unadulterated gifts from mother nature. with the true and unadulterated gifts from mother nature."
+                        Width: =lblDeliciousFruits.Width
+                        ZIndex: =2
+
+                    btnWatchVideo As button:
+                        BorderColor: =Self.Fill
+                        Fill: =RGBA(208, 178, 0, 1)
+                        FontWeight: =FontWeight.Normal
+                        HoverFill: =Self.Fill
+                        PressedBorderColor: =RGBA(255, 255, 255, 1)
+                        PressedColor: =Self.Color
+                        PressedFill: =Self.Fill
+                        Text: ="Watch Video"
+                        ZIndex: =3
+
+        DataCardDeliverySection As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =conDeliveryMain.Height+10
+            Width: =Parent.Width
+            X: =0
+            Y: =4
+            ZIndex: =5
+
+            conDeliveryMain As groupContainer.horizontalAutoLayoutContainer:
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =If(App.Width<600,690,conDeliveryImgSection.Height)
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutDirection: =If(App.Width<762,LayoutDirection.Vertical,LayoutDirection.Horizontal)
+                LayoutJustifyContent: =If(App.Width<762,LayoutJustifyContent.Center,LayoutJustifyContent.Start)
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =1
+
+                conDeliveryImgSection_1 As groupContainer.verticalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Center
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =150
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =If(App.Width<600,Parent.Width,0)
+                    X: =766
+                    Y: =119
+                    ZIndex: =1
+
+                    imgDelivery_1 As image:
+                        Height: =200
+                        Image: ='delivery-payment-section-img'
+                        Width: =200
+                        ZIndex: =1
+
+                conDeliveryDescription As groupContainer.verticalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Center
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =If(App.Width<600,500,conDeliveryImgSection.Height)
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutGap: =10
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    PaddingLeft: =40
+                    Width: =If(App.Width<762,Parent.Width,Parent.Width-conDeliveryImgSection.Width)
+                    ZIndex: =2
+
+                    btnDeliveryFocus As button:
+                        BorderStyle: =BorderStyle.None
+                        Height: =0
+                        Text: ="Button"
+                        Width: =0
+                        ZIndex: =1
+
+                    lblDelivery As label:
+                        FontWeight: =FontWeight.Bold
+                        Size: =16
+                        Text: ="Delivery and Payment"
+                        Width: =conHealthyFoodDescription.Width-Parent.PaddingLeft-10
+                        ZIndex: =2
+
+                    lblDeliveryDescription As label:
+                        Height: =If(App.Width<600,270,100)
+                        PaddingTop: =0
+                        Text: ="Enjoy hassle-free payment with the plenitude of payment options available for you. Get live tracking and locate your food on a live map. It's quite a sight to see your food arrive to your door. Plus, you get a 5% discount on every order every time you pay online."
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =lblDelivery.Width
+                        ZIndex: =3
+
+                    btnDeliveryOrderNow As button:
+                        BorderColor: =Self.Fill
+                        Fill: =RGBA(208, 178, 0, 1)
+                        FontWeight: =FontWeight.Normal
+                        HoverFill: =Self.Fill
+                        PressedBorderColor: =RGBA(255, 255, 255, 1)
+                        PressedColor: =Self.Color
+                        PressedFill: =Self.Fill
+                        Text: ="Order Now"
+                        ZIndex: =4
+
+                    Container3 As groupContainer.horizontalAutoLayoutContainer:
+                        FillPortions: =0
+                        Height: =60
+                        LayoutGap: =20
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        ZIndex: =5
+
+                        Image4 As image:
+                            Height: =Parent.Height
+                            Image: ='visa-card-img'
+                            Width: =Self.Height
+                            ZIndex: =1
+
+                        Image4_1 As image:
+                            Height: =Parent.Height
+                            Image: ='master-card-img'
+                            Width: =Self.Height
+                            ZIndex: =2
+
+                        Image4_2 As image:
+                            Height: =Parent.Height
+                            Image: ='paypal-card-img'
+                            Width: =Self.Height
+                            ZIndex: =3
+
+                        Image4_3 As image:
+                            Height: =Parent.Height
+                            Image: ='american-express-img'
+                            Width: =Self.Height
+                            ZIndex: =4
+
+                conDeliveryImgSection As groupContainer.verticalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Center
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =300
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Visible: =If(App.Width<600,false,true)
+                    Width: =If(App.Width<600,0,Parent.Width/3.5)
+                    X: =766
+                    Y: =119
+                    ZIndex: =3
+
+                    imgDelivery As image:
+                        Height: =200
+                        Image: ='delivery-payment-section-img'
+                        Width: =200
+                        ZIndex: =1
+
+        DataCard4 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =conThanksMain.Height+10
+            Width: =Parent.Width
+            X: =0
+            Y: =5
+            ZIndex: =6
+
+            conThanksMain As groupContainer.horizontalAutoLayoutContainer:
+                Fill: =RGBA(250, 247, 229, 1)
+                Height: =If(App.Width<600,550,conDeliveryImgSection_2.Height)
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutDirection: =If(App.Width<762,LayoutDirection.Vertical,LayoutDirection.Horizontal)
+                LayoutJustifyContent: =If(App.Width<762,LayoutJustifyContent.Center,LayoutJustifyContent.Start)
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =1
+
+                conThanksImgSection1 As groupContainer.verticalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.Center
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =250
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =If(App.Width<600,Parent.Width-10,0)
+                    X: =766
+                    Y: =119
+                    ZIndex: =1
+
+                    imgThanks1 As image:
+                        Height: =200
+                        Image: ='thanking-customers-section-img'
+                        Width: =200
+                        ZIndex: =1
+
+                conThanksDescription As groupContainer.verticalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =If(App.Width<600,300,conDeliveryImgSection_2.Height)
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutGap: =10
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    PaddingLeft: =40
+                    Width: =If(App.Width<762,Parent.Width,Parent.Width-conDeliveryImgSection_2.Width)
+                    ZIndex: =2
+
+                    lblThanks As label:
+                        FontWeight: =FontWeight.Bold
+                        Height: =80
+                        Size: =16
+                        Text: ="Thank you for being a valuable customer to us."
+                        Width: =conThanksDescription.Width-50
+                        ZIndex: =1
+
+                    lblThanksDescription As label:
+                        Height: |-
+                            =//If(App.Width<600,220,100)
+                            50
+                        PaddingTop: =0
+                        Text: ="We have a surprise gift for you"
+                        Width: =lblThanks.Width
+                        ZIndex: =2
+
+                    btnDeliveryOrder As button:
+                        BorderColor: =Self.Fill
+                        Fill: =RGBA(208, 178, 0, 1)
+                        FontWeight: =FontWeight.Normal
+                        HoverFill: =Self.Fill
+                        PressedBorderColor: =RGBA(255, 255, 255, 1)
+                        PressedColor: =Self.Color
+                        PressedFill: =Self.Fill
+                        Text: |-
+                            ="Redeem Gift
+                            "
+                        ZIndex: =3
+
+                conDeliveryImgSection_2 As groupContainer.verticalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =300
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Visible: =If(App.Width<600,false,true)
+                    Width: =If(App.Width<600,0,Parent.Width/3.5)
+                    X: =766
+                    Y: =119
+                    ZIndex: =3
+
+                    imgThanks As image:
+                        Height: =200
+                        Image: ='thanking-customers-section-img'
+                        Width: =200
+                        ZIndex: =1
+
+        DataCard5 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =Parent.Width
+            X: =0
+            Y: =6
+            ZIndex: =7
+
+            Container7 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =1
+
+                Label6 As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Bold
+                    Size: =18
+                    Text: ="Follow Us On"
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+                Container8 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.None
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutGap: =30
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
+                    ZIndex: =2
+
+                    Image8 As image:
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =Self.Width
+                        Image: |-
+                            ="data:image/svg+xml;utf8, " &EncodeUrl("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill='#FFD43B' d='M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z'/></svg>")
+                        Width: =70
+                        ZIndex: =1
+
+                    Image8_1 As image:
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =Self.Width
+                        Image: |-
+                            ="data:image/svg+xml;utf8, " &EncodeUrl("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill='#FFD43B' d='M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z'/></svg>")
+                        Width: =Image8.Width
+                        ZIndex: =2
+
+                    Image8_2 As image:
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =Self.Width
+                        Image: |-
+                            ="data:image/svg+xml;utf8, " &EncodeUrl("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill='#FFD43B' d='M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z'/></svg>")
+                        Width: =Image8.Width
+                        ZIndex: =3
+
+        DataCard6 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(13, 36, 54, 1)
+            Height: =400
+            Width: =Parent.Width
+            X: =0
+            Y: =7
+            ZIndex: =8
+
+            Container9 As groupContainer.verticalAutoLayoutContainer:
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =1
+
+                Image9 As image:
+                    Image: ='food-munch-icon'
+                    ZIndex: =1
+
+                Label7 As label:
+                    Align: =Align.Center
+                    Color: =RGBA(149, 158, 162, 1)
+                    Text: ="orderfood@foodmunch.com"
+                    Width: =Parent.Width
+                    ZIndex: =2
+
+                Label8 As label:
+                    Align: =Align.Center
+                    Color: =RGBA(149, 158, 162, 1)
+                    Text: ="123 Ayur Vigyan Nagar, New Delhi, India."
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+                btnFollowFocus As button:
+                    BorderStyle: =BorderStyle.None
+                    Height: =0
+                    Text: ="Button"
+                    Width: =0
+                    ZIndex: =4
+
+    conNavBar_1 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =80
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        ZIndex: =2
+
+        imgAppIcon_1 As image:
+            Height: =Parent.Height-5
+            Image: ='food-munch-icon'
+            ZIndex: =1
+
+        conNavLinks_1 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =Parent.Height-5
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.End
+            LayoutMinHeight: =conNavBar_1.Height
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Visible: =App.Width>=1000
+            Width: =Parent.Width-imgAppIcon_1.Width
+            ZIndex: =2
+
+            btnWhyChoose_1 As button:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Font: =Font.Verdana
+                FontWeight: =FontWeight.Normal
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =Self.Fill
+                OnSelect: =SetFocus(btnFocus)
+                PressedColor: =Self.Color
+                PressedFill: =Self.Fill
+                Text: ="Why Choose Us?"
+                Width: =200
+                ZIndex: =1
+
+            btnExplore_1 As button:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Font: =Font.Verdana
+                FontWeight: =btnWhyChoose_1.FontWeight
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =Self.Fill
+                OnSelect: =SetFocus(btnFocusMenu)
+                PressedColor: =Self.Color
+                PressedFill: =Self.Fill
+                Text: ="Explore Menu"
+                Width: =200
+                ZIndex: =2
+
+            btnDelivery_1 As button:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Font: =Font.Verdana
+                FontWeight: =btnWhyChoose_1.FontWeight
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =Self.Fill
+                OnSelect: =SetFocus(btnDeliveryFocus)
+                PressedColor: =Self.Color
+                PressedFill: =Self.Fill
+                Text: ="Delivery & Payment"
+                Width: =240
+                ZIndex: =3
+
+            btnFollowUs_1 As button:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Font: =Font.Verdana
+                FontWeight: =btnWhyChoose_1.FontWeight
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =Self.Fill
+                OnSelect: =SetFocus(btnFollowFocus)
+                PressedColor: =Self.Color
+                PressedFill: =Self.Fill
+                Text: ="Follow Us"
+                Width: =200
+                ZIndex: =4
+
+    Gallery2 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =233
+        Items: |-
+            =Table({Title:"Why Choose Us",btn:btnFocus},{Title:"Explore Menu",btn:btnFocusMenu},{Title:"Delivery & Payment",btn:btnDeliveryFocus},{Title:"Follow Us",btn:btnFollowFocus})
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =49
+        Visible: =varMenu
+        Width: =Parent.Width
+        Y: =conNavBar_1.Height
+        ZIndex: =3
+
+        btnWhyChoose_2 As button:
+            Align: =Align.Left
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Font: =Font.Verdana
+            FontWeight: =FontWeight.Normal
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =Self.Fill
+            OnSelect: |-
+                =SetFocus(ThisItem.btn);
+                Set(varMenu,!varMenu)
+            PressedColor: =Self.Color
+            PressedFill: =Self.Fill
+            Text: =ThisItem.Title
+            Width: =300
+            X: =6
+            ZIndex: =2
+
+    Icon1 As icon.Hamburger:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =50
+        Icon: =Icon.Hamburger
+        OnSelect: =Set(varMenu,!varMenu)
+        Visible: =App.Width<1000
+        Width: =50
+        X: =Parent.Width-Self.Width-20
+        Y: =15
+        ZIndex: =4
+

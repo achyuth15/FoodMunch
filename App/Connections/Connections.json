@@ -1,0 +1,23 @@
+{
+  "3978d748-6721-4cd1-8226-c621ac2f8d54": {
+    "appActions": [
+      "HttpRequest",
+      "HttpRequestV2"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Groups",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/office365groups/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365groups",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Groups"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "3978d748-6721-4cd1-8226-c621ac2f8d54"
+  }
+}

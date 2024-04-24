@@ -1,0 +1,102 @@
+Screen1 As screen:
+
+    conApp As groupContainer.verticalAutoLayoutContainer:
+        Height: =768
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        ZIndex: =1
+
+        conNavBar As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            FillPortions: =0
+            Height: =100
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            ZIndex: =1
+
+            imgAppIcon As image:
+                Image: ='food-munch-icon'
+                ZIndex: =1
+
+            conNavLinks As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutJustifyContent: =LayoutJustifyContent.End
+                LayoutMinHeight: =conNavBar.Height
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width-imgAppIcon.Width
+                ZIndex: =2
+
+                btnWhyChoose As button:
+                    BorderColor: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(0, 0, 0, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Font: =Font.Verdana
+                    HoverColor: =RGBA(0, 0, 0, 1)
+                    HoverFill: =Self.Fill
+                    PressedColor: =Self.Color
+                    PressedFill: =Self.Fill
+                    Text: ="Why Choose Us?"
+                    Width: =200
+                    ZIndex: =1
+
+                btnExplore As button:
+                    BorderColor: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(0, 0, 0, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Font: =Font.Verdana
+                    HoverColor: =RGBA(0, 0, 0, 1)
+                    HoverFill: =Self.Fill
+                    PressedColor: =Self.Color
+                    PressedFill: =Self.Fill
+                    Text: ="Explore Menu"
+                    Width: =200
+                    ZIndex: =2
+
+                btnDelivery As button:
+                    BorderColor: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(0, 0, 0, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Font: =Font.Verdana
+                    HoverColor: =RGBA(0, 0, 0, 1)
+                    HoverFill: =Self.Fill
+                    PressedColor: =Self.Color
+                    PressedFill: =Self.Fill
+                    Text: ="Delivery & Payment"
+                    Width: =240
+                    ZIndex: =3
+
+                btnFollowUs As button:
+                    BorderColor: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(0, 0, 0, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Font: =Font.Verdana
+                    HoverColor: =RGBA(0, 0, 0, 1)
+                    HoverFill: =Self.Fill
+                    PressedColor: =Self.Color
+                    PressedFill: =Self.Fill
+                    Text: ="Follow Us"
+                    Width: =200
+                    ZIndex: =4
+
+        conDeliciousFood As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            ZIndex: =2
+
+            Image2 As image:
+                FillPortions: =1
+                Image: ='foodmunch-banner-bg'
+                ImagePosition: =ImagePosition.Stretch
+                Width: =Parent.Width
+                ZIndex: =1
+
