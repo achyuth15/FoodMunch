@@ -43,19 +43,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.Icon1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.icnHamburger.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.Icon1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.icnHamburger.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.Icon1"
+                "type": "Screen2.icnHamburger"
               }
             }
           ],
@@ -73,19 +73,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.Icon1.TabIndex"
+                  "fullyQualifiedName": "Screen2.icnHamburger.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.Icon1.TabIndex",
+                  "fullyQualifiedName": "Screen2.icnHamburger.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Screen2",
-                "type": "Screen2.Icon1"
+                "type": "Screen2.icnHamburger"
               }
             }
           ],
@@ -223,19 +223,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.Gallery2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.glyHamburgerMenu.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.Gallery2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.glyHamburgerMenu.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.Gallery2"
+                "type": "Screen2.glyHamburgerMenu"
               }
             }
           ],
@@ -253,19 +253,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.Gallery2.TabIndex"
+                  "fullyQualifiedName": "Screen2.glyHamburgerMenu.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.Gallery2.TabIndex",
+                  "fullyQualifiedName": "Screen2.glyHamburgerMenu.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Screen2",
-                "type": "Screen2.Gallery2"
+                "type": "Screen2.glyHamburgerMenu"
               }
             }
           ],
