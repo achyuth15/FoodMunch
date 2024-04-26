@@ -386,7 +386,7 @@
 
             conHealthyFood As groupContainer.horizontalAutoLayoutContainer:
                 Fill: =RGBA(249, 251, 254, 1)
-                Height: =If(App.Width<600,570,conHealthyFoodImg5.Height)
+                Height: =If(App.Width<600,570,conHealthyFoodImg.Height)
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutDirection: =If(App.Width<762,LayoutDirection.Vertical,LayoutDirection.Horizontal)
                 LayoutJustifyContent: =If(App.Width<762,LayoutJustifyContent.Center,LayoutJustifyContent.Start)
@@ -394,7 +394,7 @@
                 Width: =Parent.Width
                 ZIndex: =1
 
-                conHealthyFoodImg5 As groupContainer.verticalAutoLayoutContainer:
+                conHealthyFoodImg As groupContainer.verticalAutoLayoutContainer:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DropShadow: =DropShadow.None
                     FillPortions: =0
@@ -420,7 +420,7 @@
                     AlignInContainer: =AlignInContainer.Start
                     DropShadow: =DropShadow.None
                     FillPortions: =0
-                    Height: =conHealthyFoodImg5.Height
+                    Height: =conHealthyFoodImg.Height
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutGap: =10
                     LayoutJustifyContent: =LayoutJustifyContent.Center
@@ -428,7 +428,7 @@
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
                     PaddingLeft: =20
-                    Width: =If(App.Width<762,Parent.Width,Parent.Width-conHealthyFoodImg5.Width)
+                    Width: =If(App.Width<762,Parent.Width,Parent.Width-conHealthyFoodImg.Width)
                     ZIndex: =2
 
                     lblDeliciousFruits As label:
@@ -605,7 +605,7 @@
                         Width: =200
                         ZIndex: =1
 
-        DataCard4 As dataCard.blankCard:
+        DataCardThanksSection As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
@@ -618,7 +618,7 @@
 
             conThanksMain As groupContainer.horizontalAutoLayoutContainer:
                 Fill: =RGBA(250, 247, 229, 1)
-                Height: =If(App.Width<600,550,conDeliveryImgSection_2.Height)
+                Height: =If(App.Width<600,550,conThanksImgSection.Height)
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutDirection: =If(App.Width<762,LayoutDirection.Vertical,LayoutDirection.Horizontal)
                 LayoutJustifyContent: =If(App.Width<762,LayoutJustifyContent.Center,LayoutJustifyContent.Start)
@@ -652,7 +652,7 @@
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DropShadow: =DropShadow.None
                     FillPortions: =0
-                    Height: =If(App.Width<600,300,conDeliveryImgSection_2.Height)
+                    Height: =If(App.Width<600,300,conThanksImgSection.Height)
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutGap: =10
                     LayoutJustifyContent: =LayoutJustifyContent.Center
@@ -660,7 +660,7 @@
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
                     PaddingLeft: =40
-                    Width: =If(App.Width<762,Parent.Width,Parent.Width-conDeliveryImgSection_2.Width)
+                    Width: =If(App.Width<762,Parent.Width,Parent.Width-conThanksImgSection.Width)
                     ZIndex: =2
 
                     lblThanks As label:
@@ -680,7 +680,7 @@
                         Width: =lblThanks.Width
                         ZIndex: =2
 
-                    btnDeliveryOrder As button:
+                    btnRedeemGift As button:
                         BorderColor: =Self.Fill
                         Fill: =RGBA(208, 178, 0, 1)
                         FontWeight: =FontWeight.Normal
@@ -693,7 +693,7 @@
                             "
                         ZIndex: =3
 
-                conDeliveryImgSection_2 As groupContainer.verticalAutoLayoutContainer:
+                conThanksImgSection As groupContainer.verticalAutoLayoutContainer:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DropShadow: =DropShadow.None
                     FillPortions: =0
