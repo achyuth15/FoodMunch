@@ -86,7 +86,7 @@
     "lblThanksDescription": 69,
     "lblWhyChooseUs": 25,
     "lblWhyChooseUsSubHeading": 26,
-    "Screen2": 4,
+    "ScreenFoodMunch": 4,
     "Subtitle1": 31,
     "Subtitle2": 40,
     "Title1": 30,
@@ -94,7 +94,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/26/2024 05:08:11",
+  "HeaderLastSavedDateTimeUTC": "04/26/2024 05:09:33",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3978d748-6721-4cd1-8226-c621ac2f8d54": "\"/providers/microsoft.powerapps/apis/shared_office365groups/connections/91541759e26847e09be655f4daf7bb40\""
@@ -123,26 +123,26 @@
     "visa-card-img": "0020.png"
   },
   "LocalResourceRootPaths": {
-    "american-express-img": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00001.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=QsPS%2FFEVBsMTeNVVblfECzjwJcFDCELtTUJf%2B%2BCDX74%3D",
-    "best-offers": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00002.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=FkKoQ%2FiX07RYY1WiH4JPC7T%2BmpUXPkGSsst1t9Vdr3A%3D",
-    "delivery-payment-section-img": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00003.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=vgdoq8M%2FDhZYzOYvL4oAFzA0r8VqODtRbUlRaZL%2FhUA%3D",
-    "desserts": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00004.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=GbV4ZS58CdCM4NpIXbuEz4ms1E1dJetPtKGb5mYI7e4%3D",
-    "foodmunch-banner-bg": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00007.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=9UJ81xN6Pq%2Fn2ZEZLMkfC3Bijay4vFQ%2Fy6JQ2PQkv5I%3D",
-    "food-munch-icon": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00005.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=tHOlq26aezJ6aoJ%2F8KmauLv7S6hRkVR5wmIXBBrao0I%3D",
-    "food-service": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00006.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=MGYR8OvAX0AxF0WJXWt0VZGmLaBbBzuoJDkYO2XbQjI%3D",
-    "fresh food": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00008.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=6kuKdXcpDtrXr%2BsRahi6%2BAc5S15XzWaD9fWw6EwfVmY%3D",
-    "healthy-food-plate-img": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00009.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=VRVqOgqp3Z9g6iQ5rnfodis9T9HBaQclAsdrV4gsngg%3D",
-    "maincourse": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00010.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=k1xxNIPZJIfG59A%2FZSoHlwu3JhhC4%2B5JYurAEOugoR0%3D",
-    "master-card-img": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00011.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=rpBZRhtxd34WlfoaSoQ42s562TYdHXkB5wVfD2LhpXk%3D",
-    "nonvegstarter": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00012.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=ZWu890BpS333TaU3LxLR1CuaWsTMmDbRR25Xra17Ec4%3D",
-    "noodles": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00013.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=mgFuIK4L0m6FdjFufBIKWAkBHJ%2FtEnmob6dhytt8TOU%3D",
-    "paypal-card-img": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00014.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=L%2BYAV5FMpsMId6gzBUqpwvX6DqfKNSw0tdMd2aqyTkY%3D",
-    "salads": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00015.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=1lQXZ7sitdag7wrLTPQSrcAPI%2BceVXhBi1YlJ8CSXiU%3D",
-    "seafood": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00016.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=sBgNzGlNj8GdCc9saDEKvEJuChSQrOCcvqoTayzyl2I%3D",
-    "soups": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00017.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=ue0kwwrMqLHxFmOwbWSPVOHbgUZL1Krq5Q0xAIjjx5k%3D",
-    "thanking-customers-section-img": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00018.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=WjuqOrXRLiEGwzCwx428W2T29E6ZmHgI72lQvQIVzQ8%3D",
-    "vegstarter": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00019.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=JVdER4D8tkPtpBujM87pEBq1XWjrb2BgVO5taSD77Sw%3D",
-    "visa-card-img": "https://docserverpwaprodeus.blob.core.windows.net/745c7953-3dd3-4185-ac37-96c9e761fa5d-1/resource/Assets0Images00020.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A02%3A44Z&ske=2024-04-27T05%3A17%3A44Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A17%3A44Z&sr=b&sp=r&sig=71OQdJzhFQZSFNmQ%2FuLarVKrHf%2B39yuy3URoNenNle4%3D"
+    "american-express-img": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00001.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A03Z&ske=2024-04-27T05%3A24%3A03Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A03Z&sr=b&sp=r&sig=cLYx%2Fxc253I9NLtk%2FJsoPlELeAaevFsee7%2F05%2BJh%2F1g%3D",
+    "best-offers": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00002.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A03Z&ske=2024-04-27T05%3A24%3A03Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A03Z&sr=b&sp=r&sig=XZqjITKpUiDFQXGoQDe%2F5j5oRPDEsk3I%2Fe8tngeu4MA%3D",
+    "delivery-payment-section-img": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00003.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A03Z&ske=2024-04-27T05%3A24%3A03Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A03Z&sr=b&sp=r&sig=iqtdvFAybP%2BF0vjH5mq6tKWM1GhHdnQBS8PXX8%2BKnZk%3D",
+    "desserts": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00004.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A03Z&ske=2024-04-27T05%3A24%3A03Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A03Z&sr=b&sp=r&sig=nbSCjpZzXWu5h9NlJ8FQkrdCMpjr1j5YrJr5Wv5ieNs%3D",
+    "foodmunch-banner-bg": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00007.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=P70K2JskPuSOcRPFJJFb4pfQEMSjC%2FhrjfUnImkmml4%3D",
+    "food-munch-icon": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00005.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A03Z&ske=2024-04-27T05%3A24%3A03Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A03Z&sr=b&sp=r&sig=fB0%2Fa9kIDRh6rKEr6qHZof3YBtOddy5ykujSm7D0dRg%3D",
+    "food-service": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00006.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A03Z&ske=2024-04-27T05%3A24%3A03Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A03Z&sr=b&sp=r&sig=HxawADWqxo6F2niawRNYcpn4UJC0ufNCvYI%2BQhVNCAE%3D",
+    "fresh food": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00008.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=%2BCStDWytcO4l%2BKl6dJc109xV75IviT49YDYY%2BUFrxqE%3D",
+    "healthy-food-plate-img": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00009.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=1QlGV3OYuejV2k8naxGfOvm%2BIw0o1LrhfaBQC5x310g%3D",
+    "maincourse": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00010.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=SZco6x%2F2KnCZ3Lro0tnAlptfZYaGzBdOWBZsp2r7wWA%3D",
+    "master-card-img": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00011.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=aL1XLCr4uWH7M90bD2U63BPEs9SEFAnTQf6cnHaPviI%3D",
+    "nonvegstarter": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00012.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=0LN5EuEOQNuEbg93Io6cD5RKfKIKWyRpH%2FfjtmN%2FewI%3D",
+    "noodles": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00013.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=GS%2FI28xTee%2BHdDkPpAjmVkAACcXVTxnYz%2FEY7ISapso%3D",
+    "paypal-card-img": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00014.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=%2FkqmpwYfGzBW8%2FfyFLkBuDaZJ3UOsQlEC%2FKs%2BwU2JLg%3D",
+    "salads": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00015.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=RfQLxAjJu4ZCFlizheoBLFnwbE19Q7La%2Blj1thnCnMs%3D",
+    "seafood": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00016.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=Ul%2FXOIvJLM%2FS7gdN9MebMfxLwBv7qcTTp7RtpzENusk%3D",
+    "soups": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00017.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=QbBbMtsuXibP73BJJzOWMIf0VNJ%2BvFH1831vGRyvnNQ%3D",
+    "thanking-customers-section-img": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00018.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=%2BOZhQ2sw6iE%2F5A2cdVkAsqsW2ZMq27FEEM0mLqYL7Jg%3D",
+    "vegstarter": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00019.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=aKX46aQ2qiDeZA4AYcNc0nCpj3z0EdDWL210YajMfIo%3D",
+    "visa-card-img": "https://docserverpwaprodwus.blob.core.windows.net/f0e27035-dfa5-4eb6-ac6a-fa8fb73f6e67-1/resource/Assets0Images00020.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-26T05%3A09%3A04Z&ske=2024-04-27T05%3A24%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-27T05%3A24%3A04Z&sr=b&sp=r&sig=Uk1KBBkpJrk%2BeSzYIhUX6%2BXniVWdpPDSaywPkvrDsXg%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -247,7 +247,7 @@
     "lblThanksDescription": {},
     "lblWhyChooseUs": {},
     "lblWhyChooseUsSubHeading": {},
-    "Screen2": {},
+    "ScreenFoodMunch": {},
     "Subtitle1": {},
     "Subtitle2": {},
     "Title1": {},
@@ -340,7 +340,7 @@
     "lblThanksDescription": 64,
     "lblWhyChooseUs": 20,
     "lblWhyChooseUsSubHeading": 21,
-    "Screen2": 3,
+    "ScreenFoodMunch": 3,
     "Subtitle1": 26,
     "Subtitle2": 35,
     "Title1": 25,
@@ -372,7 +372,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2686682,
+    "AnalysisLoadTime": 0.3948745,
     "ControlCount": {
       "button": 14,
       "dataCard": 8,
@@ -385,7 +385,7 @@
       "label": 18,
       "screen": 1
     },
-    "DeserializationLoadTime": 2.7443011
+    "DeserializationLoadTime": 2.0276578
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

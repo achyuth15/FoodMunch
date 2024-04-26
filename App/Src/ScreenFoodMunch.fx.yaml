@@ -1,4 +1,4 @@
-"Screen2 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+"ScreenFoodMunch As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
 
     Canvas1 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0

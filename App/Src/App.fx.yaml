@@ -1,7 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: =Set(varMenu,false)
-    StartScreen: =Screen2
+    StartScreen: =ScreenFoodMunch
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
